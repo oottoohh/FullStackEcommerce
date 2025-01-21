@@ -8,6 +8,13 @@
       "when": 1737302530739,
       "tag": "0000_normal_firebrand",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1737472255509,
+      "tag": "0001_illegal_maelstrom",
+      "breakpoints": true
     }
   ]
 }
