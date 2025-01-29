@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "ecommerce-mobile",
+    "slug": "ecommerce",
+    "scheme": "ots-ecomm",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "ecommerce.com"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "07e7f4c3-b517-4b27-8184-40c4018b68ad"
+      }
+    },
+    "owner": "ottoh",
+    "plugins": ["expo-router"]
+  }
+}
